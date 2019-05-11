@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3bacaa-75cb-47b1-866c-18d3cb1ad5dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/account.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/communicationdashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/countryDetails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/educationdashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/electricitydashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/employmentdashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/firstHTML.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/frontPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/layout.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/populationdashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/subscribe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/userlist.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/worldMapHover.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Australia_Flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/account.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/d3Edit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/d3Edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dc.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-8">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -90,9 +62,9 @@
         <option value="$PROJECT_DIR$/app_server/views/subscribe.html" />
         <option value="$PROJECT_DIR$/app_server/views/update.html" />
         <option value="$PROJECT_DIR$/app_server/views/worldMapHover.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/main.js" />
         <option value="$PROJECT_DIR$/app_server/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -137,11 +109,6 @@
               <item name="app_server" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Nationpedia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nationpedia" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,10 +151,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2249000" />
+    <option name="totallyTimeSpent" value="2632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,6 +282,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app_server/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1677">
@@ -321,17 +296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
