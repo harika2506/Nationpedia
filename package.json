@@ -31,5 +31,13 @@
   },
   "author": "Developers",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harika2506/Nationpedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harika2506/Nationpedia/issues"
+  },
+  "homepage": "https://github.com/harika2506/Nationpedia#readme"
 }
