@@ -254,15 +254,8 @@ module.exports.get_about = function(request, result)
 {
     sendPage('./app_server/views/about.html', result);
 };
-module.exports.get_account = function(request, result) 
-{
-    sendPage('./app_server/views/account.html', result);
-};
 
-module.exports.get_subscribe = function(request, result) 
-{
-    sendPage('./app_server/views/subscribe.html', result);
-};
+
 
 module.exports.get_second_page = function(request, result) 
 {
@@ -316,110 +309,4 @@ module.exports.post_second_page = function(request, result)
 	fetchCountryDetails(country, result);
 	
 	
-};
-module.exports.post_add_user = function(request,result)
-{
-	
-	var myData = new User(request.body);
-	User.find({email : myData.email}, function (err, docs) {
-        if (docs.length){
-            result.send('<script>alert("User exists already")</script>');
-        	
-        }else{
-            myData.save();
-            result.send('<script>alert("User subscribed Succesfully")</script>');
-        }
-         
-    });
-};
-
-module.exports.get_showuser = function(request, result) 
-{
-	
-    var mail = request.query.email;    
-    console.log(mail);
-    
-    User.find( { email : mail },'firstName lastName email mobile country DOB', function(err, doc) {
-                         if (err) {
-                             result.send("Find failed.");
-                         }
-                         else {
-                        	 try{
-                        	//	 console.log("Inside Try Block");
-                             result.send("FirstName: "+doc[0].firstName+"</br>"+"LastName: "+doc[0].lastName
-                            		 +"</br>"+"Email ID: "+doc[0].email+"</br>"+"Mobile: "+doc[0].mobile
-                            		 +"</br>"+"country: "+doc[0].country+"</br>"+"DOB: "+doc[0].DOB
-                            		 );
-                        	 }
-                        	 catch(ex){
-                        		// console.log("Inside Catch Block");
-                        		 
-                        		 result.send("User not Available in Database");
-                        		 
-                        	 }
-                         }
-    });
-    
-   
-};
-module.exports.get_deleteuser = function(request, result) 
-{
-	
-    var mail = request.query.email; 
-    
-    User.find({email : mail}, function (err, docs) {
-        if (docs.length){
-        	User.remove( { email : mail }, function(err, doc) {
-                if (err) {
-                	result.send('<script>alert("Delete Failed")</script>');
-                }
-                else {
-                    result.send('<script>alert("User successfully unsubscribed")</script>');
-                }
-        	});
-            
-           
-        }
-        else{
-            result.send('<script>alert("User not in database")</script>');
-
-        }
-    });
-    
-   
-};
-module.exports.get_userlist = function(request,result)
-{
-	
-	 User.find( {},{}, function(err, doc) {
-         if (err) {
-             result.send('<script>alert("Find Failed")</script>');
-         }
-         else {
-        	 result.render('userlist', { "userlist" : doc });
-         }
-	 });
-};
-
-module.exports.get_update = function(request,result){
-	//console.log(request.query.email);
-	var mail = request.query.email;
-	
-	sendPage('./app_server/views/update.html', result);
-	
-};
-
-module.exports.post_updateuser = function(request,result)
-{
-
-	var mail = request.body.email;
-	
-	
-	User.findOneAndUpdate({email: mail}, request.body, function (err, user) {
-		
-		result.send(user)
-	//	result.send('<script>alert("Update Succesful")</script>');
-	});
-
-	//result.send('<script>alert("Update Succesful")</script>');
 };
